@@ -27,3 +27,5 @@ $(call inherit-product, $(LOCAL_PATH)/p6800_base.mk)
 $(call inherit-product-if-exists, vendor/samsung/smdk4210-tab/smdk4210-tab_base.mk)
 
 $(call inherit-product-if-exists, vendor/samsung/p6800/p6800_base.mk)
+
+PRODUCT_NAME := p6800
